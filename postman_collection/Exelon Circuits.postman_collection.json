@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "24832ecd-bed3-4745-aba0-068f0cd5768e",
+		"name": "Exelon Circuits",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37932899"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/city",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Mangalore\",\n\"population\": 763000,\n\"country\": \"India\",\n\"latitude\": 12.915605,\n\"longitude\": 74.855965\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/city",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"city"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/city",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Mangalore\",\n\"population\": 763000,\n\"country\": \"India\",\n\"latitude\": 12.915605,\n\"longitude\": 74.855965\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/city",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"city"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/city/Mangalore",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/city/Mangalore",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"city",
+						"Mangalore"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/city",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/city",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"city"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
